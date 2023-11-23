@@ -1,7 +1,5 @@
 import rclpy
 from rclpy.lifecycle import State, TransitionCallbackReturn, Node
-from rclpy.callback_groups import MutuallyExclusiveCallbackGroup, ReentrantCallbackGroup
-
 from std_msgs.msg import String
 
 
